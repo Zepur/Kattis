@@ -1,31 +1,3 @@
-# keys = ['', '', 'abc', 'def', 'ghi', 'jkl', 'mno', 'pqrs', 'tuv', 'xyz']
-# words = []
-# num_read_lines = int(input())
-# num_valid = 0
-#
-#
-# def coconut(s):
-#     global num_valid
-#     valid = True
-#     for q in range(len(key_presses)):
-#         if s[q] not in keys[key_presses[q]]:
-#             valid = False
-#             break
-#     if valid:
-#         num_valid += 1
-#
-#
-# for i in range(num_read_lines):
-#     words.append(input())
-#
-# key_presses = [int(n) for n in input()]
-#
-# for word in words:
-#     if len(word) == len(key_presses):
-#         coconut(word)
-#
-# print(str(num_valid))
-
 keys = {
     'a': 2,
     'b': 2,
